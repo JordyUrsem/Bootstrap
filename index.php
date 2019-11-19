@@ -1,7 +1,7 @@
 <html>
  <head>
    <title>TheDutchTarantula</title>
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/styless.css">
    <script src="js/filter.js"></script>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -58,8 +58,10 @@ include_once('includes/footer.php');
     <div class="price-head">
        <div class="containers">
          <div class="img-box">
+             <a href="workinprogress.php" class="item-link" title="Females &amp; Pairs">
            <input type="image" class="imgs"id="saveform" src="img/bulkspiders.jpg"  alt="img-responsive" />
              <div class="centered">BULK ORDER</div>
+           </a>
          </div>
        </div>
      </div>
@@ -70,8 +72,10 @@ include_once('includes/footer.php');
     <div class="price-head">
       <div class="containers">
         <div class="img-box">
+            <a href="workinprogress.php" class="item-link" title="Females &amp; Pairs">
           <input type="image" class="imgs"id="saveform" src="img/metelica.jpg"  alt="img-responsive" />
             <div class="centered">TARANTULAS</div>
+          </a>
         </div>
       </div>
     </div>
@@ -82,8 +86,10 @@ include_once('includes/footer.php');
     <div class="price-head">
       <div class="containers">
         <div class="img-box">
+            <a href="workinprogress.php" class="item-link" title="Females &amp; Pairs">
           <input type="image" class="imgs"id="saveform" src="img/smithy2.jpg"  alt="img-responsive" />
             <div class="centered">OTHERS</div>
+          </a>
         </div>
       </div>
     </div>
@@ -94,8 +100,10 @@ include_once('includes/footer.php');
     <div class="price-head">
       <div class="containers">
         <div class="img-box">
+            <a href="workinprogress.php" class="item-link" title="Females &amp; Pairs">
           <input type="image" class="imgs"id="saveform" src="img/goliathpurple.jpg"  alt="img-responsive" />
             <div class="centered">FEMALES</div>
+            <a/>
         </div>
       </div>
     </div>
@@ -106,8 +114,10 @@ include_once('includes/footer.php');
     <div class="price-head">
       <div class="containers">
         <div class="img-box">
-          <input type="image" class="imgs"id="saveform" src="img/regalis.jpg"  alt="img-responsive" />
+          <a href="workinprogress.php" class="item-link" title="Females &amp; Pairs">
+          <input type="image" class="imgs" id="saveform" src="img/regalis.jpg"  alt="img-responsive" />
             <div class="centered">MALES</div>
+          </a>
          </div>
        </div>
     </div>
@@ -118,8 +128,10 @@ include_once('includes/footer.php');
     <div class="price-head">
       <div class="containers">
         <div class="img-box">
+            <a href="workinprogress.php" class="item-link" title="Females &amp; Pairs">
           <input type="image" class="imgs"id="saveform" src="img/COMMUNAL.jpg"  alt="img-responsive" />
             <div class="centered">COMMUNAL</div>
+          </a>
         </div>
       </div>
     </div>
@@ -127,108 +139,43 @@ include_once('includes/footer.php');
 </div>
 </div>
 </div>
+<!---text--->
 </section>
-<!---filter--->
-<section id="promo">
-  <div>
-    <div id="myBtnContainer">
-      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-      <button class="btn" onclick="filterSelection('poecilotheria')"> poecilotheria</button>
-      <button class="btn" onclick="filterSelection('Brachmypelma')"> Brachmypelma</button>
-      <button class="btn" onclick="filterSelection('Pterinochilus')"> Pterinochilus</button>
-    </div>
-  <div class="row">
-    <div class="column Brachmypelma">
-      <div class="content">
-        <img src="img/bulkspiders.jpg" alt="Mountains" style="width:100%">
-      </div>
-    </div>
-    <div class="column poecilotheria">
-      <div class="content">
-        <img src="img/COMMUNAL.jpg" alt="Lights" style="width:100%">
-      </div>
-    </div>
-    <div class="column Pterinochilus">
-      <div class="content">
-        <img src="img/goliathpurple.jpg" alt="Nature" style="width:100%">
-      </div>
-    </div>
-    <div class="column Pterinochilus">
-      <div class="content">
-        <img src="img/goliathpurple.jpg" alt="Car" style="width:100%">
-      </div>
-    </div>
-    <div class="column Brachmypelma">
-      <div class="content">
-        <img src="img/bulkspiders.jpg" alt="Car" style="width:100%">
-      </div>
-    </div>
-    <div class="column poecilotheria">
-      <div class="content">
-        <img src="img/regalis.jpg" alt="Car" style="width:100%">
-      </div>
-    </div>
-    <div class="column Brachmypelma">
-      <div class="content">
-        <img src="img/bulkspiders.jpg" alt="Car" style="width:100%">
-      </div>
-    </div>
-    <div class="column Pterinochilus">
-      <div class="content">
-        <img src="img/goliathpurple.jpg" alt="Car" style="width:100%">
-      </div>
-    </div>
-    <div class="column poecilotheria">
-      <div class="content">
-        <img src="img/metelica.jpg" alt="Car" style="width:100%">
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-<!---comments--->
-<section id="comment">
+<section id="text">
 <div class="container">
-	<div class="row">
-    <div class="commentform">
-      <label for="name">Name: </label>
-      <input type="text" placeholder="Name" name="" value="">
-      <br>
-      <label for="name">Message: </label>
-      <textarea rows="4" cols="100" placeholder="What is on your mind"></textarea><br>
-      <input type="submit" name="verzenden" value="verzenden">
-    </div>
-		 <div class="media comment-box">
-            <div class="media-left">
-                <a href="#">
-                    <img class="img-responsive user-photo" src="img/personicon.png">
-                </a>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">Spiderman</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <div class="media">
-                    <div class="media-left">
-                        <a href="#">
-                            <img class="img-responsive user-photo" src="img/personicon.png">
-                        </a>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Spiderwoman</h4>
-                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</div>
+  <div class="buyspiders">
+  <h1>Is a tarantula something for you?</h1>
+  <h4>A tarantula is a very big spider that people most likely think about like murder weapons but a tarantula never killed a human yet</h4>
+  <a href="workinprogress.php" class="item-link" title="Females &amp; Pairs">
+  <button type="button" class="btn btn-primary btn-lg">Is a spider something for me?</button>
+  <a/>
+</div>
 </div>
 </section>
 <!---footer--->
 <section id="footer">
-  <div class="container">
-    <h1>Here is the footer</h1>
-    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
-  </div>
+  <footer class="footer-basic-centered">
+
+
+  			<p class="footer-links">
+  				<a href="index.php">Home</a>
+  				·
+  				<a href="workinprogress.php">Shop</a>
+  				·
+  				<a href="news.php">News</a>
+  				·
+  				<a href="Contact.php">Contact</a>
+  				·
+  				<a href="workinprogress.php">Faq</a>
+  				·
+  				<a href="workinprogress.php">support</a>
+          ·
+  				<a href="workinprogress.php">About us</a>
+  			</p><br>
+
+  			<p class="footer-company-name">TheDutchTarantula © 2019</p>
+
+  		</footer>
 </section>
 </body>
 </html>

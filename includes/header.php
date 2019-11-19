@@ -14,19 +14,22 @@
           <a class="nav-link" href="index.php">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Shop.php">SHOP</a>
+          <a class="nav-link" href="workinprogress.php">SHOP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.php">NEWS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Contact.php">CONTACT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">FAQ</a>
+          <a class="nav-link" href="workinprogress.php">FAQ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SUPPORT</a>
+          <a class="nav-link" href="workinprogress.php">SUPPORT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT US</a>
+          <a class="nav-link" href="workinprogress.php">ABOUT US</a>
         </li>
       </ul>
     </div>

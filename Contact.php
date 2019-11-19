@@ -1,5 +1,5 @@
+
 <script src="js/jss.js"></script>
-<script src="js/collapse.js"></script>
 <link rel="stylesheet" href="css/contactcss.css">
 </head>
 <body>
